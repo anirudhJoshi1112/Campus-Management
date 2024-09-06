@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Era Hill University Bhimtal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Graphic Era Hill University Bhimtal</h1>
+        <nav>
+            <ul>
+                <li><a href="#cafeteria">Cafeteria</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#hostel">Hostel</a></li>
+                <li><a href="#admin-block">Admin Block</a></li>
+                <li><a href="#academic-blocks">Academic Blocks</a></li>
+                <li><a href="#labs">Labs</a></li>
+                <li><a href="#sports">Sports</a></li>
+            </ul>
+            <button id="toggleMode">Toggle Dark Mode</button>
+        </nav>
+    </header>
+
+    <section id="cafeteria" class="location-section">
+        <h2>Cafeteria</h2>
+        <img src="dummy-cafeteria.jpg" alt="Cafeteria" class="modal-trigger">
+        <p>The cafeteria offers a wide variety of food and beverages...</p>
+    </section>
+
+    <section id="library" class="location-section">
+        <h2>Library</h2>
+        <img src="dummy-library.jpg" alt="Library" class="modal-trigger">
+        <p>The library is well-stocked with books and digital resources...</p>
+    </section>
+
+    <section id="hostel" class="location-section">
+        <h2>Hostel</h2>
+        <img src="dummy-hostel.jpg" alt="Hostel" class="modal-trigger">
+        <p>The hostel provides comfortable accommodation for students...</p>
+    </section>
+
+    <!-- Modal Popup -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <section id="admin-block" class="location-section">
+        <h2>Admin Block</h2>
+        <img src="dummy-admin.jpg" alt="Admin Block" class="modal-trigger">
+        <p>The Admin Block is where the administration offices are located...</p>
+    </section>
+
+    <section id="academic-blocks" class="location-section">
+        <h2>Academic Blocks</h2>
+        <div class="image-slider">
+            <div class="slide">
+                <img src="dummy-academic1.jpg" alt="Academic Block 1">
+            </div>
+            <div class="slide">
+                <img src="dummy-academic2.jpg" alt="Academic Block 2">
+            </div>
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </section>
+
+    <section id="labs" class="location-section">
+        <h2>Labs</h2>
+        <img src="dummy-computer-lab.jpg" alt="Computer Lab" class="modal-trigger">
+        <p>Computer Labs (Lab 1, 2, 3, 4) are equipped with the latest computers...</p>
+        <img src="dummy-mechanical-lab.jpg" alt="Mechanical Lab" class="modal-trigger">
+        <p>The Mechanical Lab allows students to work on hands-on projects...</p>
+    </section>
+
+    <section id="sports" class="location-section">
+        <h2>Sports Facilities</h2>
+        <img src="dummy-basketball-court.jpg" alt="Basketball Court" class="modal-trigger">
+        <p>The basketball court is available for all students...</p>
+        <img src="dummy-volleyball-court.jpg" alt="Volleyball Court" class="modal-trigger">
+        <p>The volleyball court is a popular spot for practice...</p>
+        <img src="dummy-cricket-field.jpg" alt="Cricket Field" class="modal-trigger">
+        <p>The cricket field is spacious and well-maintained for matches...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Graphic Era Hill University Bhimtal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
